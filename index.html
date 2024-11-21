@@ -4,33 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Add to bag</title>
+  <title>local | Storage</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="btn-container">
 
-    <button class="btn-add" onclick="
-    addtobag = addtobag + 1;
-    document.querySelector('h1').innerHTML =`Your bag has ${addtobag} items`
-    ;">Add to bag</button>
+  <h1>Hello World!</h1>
+  <button>Click me to Change!</button>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex a, debitis maiores voluptate tempore? Libero cumque obcaecati nesciunt reprehenderit voluptatem exercitationem possimus saepe? Eius modi vel saepe eaque sapiente?</p>
 
-    <button class="btn-remove" onclick="
-    addtobag = addtobag - 1;
-    document.querySelector('h1').innerHTML =`Your bag has ${addtobag} items`
-    ;">Move to wishlist</button>
-
-    <button class="btn-add" onclick="
-    addtobag = addtobag + 2;
-    document.querySelector('h1').innerHTML =`Your bag has ${addtobag} items`
-    ;">Add 1+1 Sale item</button>
-  </div>
-
-  <h1></h1>
-  
-  <script>
-    let addtobag =0;
-    document.querySelector('h1').innerText =`Your bag has ${addtobag} items`;
-  </script>
+  <script src="scr.js"></script>
 </body>
 </html>

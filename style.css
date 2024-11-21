@@ -1,13 +1,9 @@
-.btn-add{
-border: none;
-background-color: rgb(157, 245, 157);
-border-radius: 15px;
-padding: 6px 20px 6px 20px;
-font-weight: bold;
-}
-.btn-remove{
-padding: 6px 25px 6px 25px;
-border-radius: 7px;
-text-transform: uppercase;
-font-weight: bold;
+.myself{
+width: 100%;
+height: 150px;
+background-color: black;
+color: white;
+font-size: 30px;
+border: 1px solid red;
+overflow: hidden;
 }
